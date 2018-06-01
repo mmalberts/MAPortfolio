@@ -44,15 +44,7 @@ h1, h2, h3, h4, h5 {
 
 .heading {
 	opacity: 0.6;
-	/*text-align: center;*/
-}
-
-.heading-left {
-	text-align: left;
-}
-
-.heading-right {
-	text-align: right;
+	text-align: center;
 }
 
 .aboutbox {
