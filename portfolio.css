@@ -1,0 +1,148 @@
+body {
+	background-color: #e8e8e8;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Nixie One', cursive;
+}
+
+.row {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.header-nav {
+	padding: 5px;
+	opacity: 0.7;
+	background-color: white;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0%;
+}
+
+.nav-item {
+	text-align: center;
+}
+
+#nav-links {
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.img-logo {
+	max-height: 100px;
+	margin: 2%;
+}
+
+.heading {
+	opacity: 0.6;
+	/*text-align: center;*/
+}
+
+.heading-left {
+	text-align: left;
+}
+
+.heading-right {
+	text-align: right;
+}
+
+.aboutbox {
+	padding: 10px;
+	height: 100%;
+	/*border: 1px solid red;*/
+}
+
+.textbox {
+	line-height: 200%;
+	padding: 20px 30px 10px 30px;
+	background-color: white;
+	opacity: 0.75;
+	height: 100%;
+}
+
+.imgbox {
+	margin: 0%;
+	height: 100%;
+	overflow: auto;
+}
+
+.image {
+	width: 100%;
+	opacity: 0.9;
+/*	position: absolute;
+	bottom: -70px;*/
+}
+
+.work-link-container {
+	padding: 20px;
+	height: 100%;
+}
+
+.work-link-box {
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.link-img {
+	opacity: 0.8;
+	height: 300px;
+	overflow-y: hidden;
+	margin: auto;
+	filter: grayscale(30%);
+	background-color: white;
+}
+
+.sitename {
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+	padding: 5px;
+	opacity: 0.6;
+	font-size: 24px;
+}
+
+.link-text {
+	font-size: 24px;
+	position: absolute;
+	top: 0;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	padding: 30% 0% 0% 0%;
+	opacity: 0;
+	background-color: white;
+}
+
+.link-text:hover {
+	opacity: 0.6;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: #bababa;
+	text-decoration: none;
+}
+
+.link-img:hover {
+	opacity: 0.1;
+}
+
+.contact-box {
+	text-align: center;
+	font-size: 12px;
+	opacity: 0.8;
+}
